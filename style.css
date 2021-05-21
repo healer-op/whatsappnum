@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: unset;
+}
+
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.app-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+.app {
+  border: 1px solid #efefef;
+  margin: 1rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  max-width: 720px;
+  background-color: white;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.248);
+          box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.248);
+}
+
+
+.container {
+  margin: 0 auto;
+}
+
+main,
+section,
+header,
+footer {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+header {
+  border-bottom: 1px solid #efefef;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 1rem;
+}
+
+main form .field {
+  width: 100%;
+}
+
+
+main form .field label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #494949;
+  margin-bottom: 5px;
+}
+
+main form .field input,
+main form .field textarea {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ededed;
+  border-radius: 4px;
+  width: 100%;
+}
+
+
+main .btn {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+main .btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.pro-tip {
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.creator{
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.pro-tip a {
+  color: #2caa2c;
+  font-weight: 600;
+}
+
+.optional {
+  color: #a7a7a7;
+  font-weight: 300;
+}
+
+.model {
+  width: 200px;
+  position: absolute;
+  filter: grayscale(35%);
+  -webkit-filter: grayscale(35%);
+}
+
+@media screen and (max-width: 1020px) {
+  .model {
+    display: none;
+  }
+}
+
+.boy {
+  bottom: 0;
+  right: -170px;
+}
+
+.girl {
+  bottom: 0;
+  left: -182px;
+  width: 195px;
+}

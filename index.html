@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Whatsapp to a number</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js">
+	</script>
+
+	<script defer src="https://raw.githubusercontent.com/healer-op/Api/main/whatsappscript.js">
+    	</script>
+	<script defer src="script.js">
+
+
+
+   </script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="app-wrapper">
+			<div class="app">
+
+				<img class="model boy" src="./public/SVG/boy.svg" alt="boy">
+        <img class="model girl" src="./public/SVG/girl.svg" alt="girl">
+
+				<header>
+					<div class="container">
+						<h1>Enter Number To Jump To Whatsapp</h1>
+					</div>
+				</header>
+
+				<main>
+					<div class="container">
+						<form id="login" onsubmit="submitForm(event)">
+
+							<div class="field">
+								<label for="phone">Enter Phone Number</label>
+                                <input id="phone" type="tel" name="phone" />
+                            </div>
+
+                            <div class="field">
+                                <label for="phone">Enter Message <span class="optional">(optional)</span></label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <input type="submit" class="btn" value="Submit" />
+                        </form>
+                    </div>
+                </main>
+
+                <section>
+                    <div class="container pro-tip">
+                        Pro Tip: <a href="https://www.whatsapp.com/download/">Download WhatsApp</a> on desktop to avoid
+                        this
+                        opening link in a new tab.
+                    </div>
+                </section>
+                <section>
+                  <div class="container creator">
+                       Made By healer-op
+                  </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
